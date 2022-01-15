@@ -2,10 +2,76 @@
     background-image: url();
     background-repeat: no-repeat;
     display: flex;
+    margin-bottom: 80px;
 }
 
 .half-width{
     width:40%;
     margin-left: 5px;
     padding-left: 2%;
+}
+
+/* Camera anchor button style with arrow */
+
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, orange, red);
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px 30px;
+
+}
+.camera img{
+  width: 200px;
+  height: 200px;
+}
+
+.marketplace ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.marketplace ul li img{
+    border: olive;
+    margin: 10px;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+.feature{
+    background-color: white;
+    background-size: 10%;
+    background-position: left;
+}
+    
+section{
+    display: flex;
+    margin: 50px;
+}
+
+.feature img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, orange, red);
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px 30px;
+
 }
