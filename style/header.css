@@ -9,6 +9,7 @@ body {
 }
 .container a{
     color: black;
+    font-size: 25px;
     text-decoration: none;
     text-transform: uppercase;
     margin-left: 50px;
@@ -31,7 +32,7 @@ nav ul{
 }
 nav li{
     display: inline-block;
-    margin: 0 35px;
+    margin: 0 15px;
 }
 nav a{
     color: black;
