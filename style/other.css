@@ -1,5 +1,5 @@
 .camera{
-    background-image: url();
+    background-image: none;
     background-repeat: no-repeat;
     display: flex;
     margin-bottom: 80px;
@@ -26,6 +26,7 @@
 .camera img{
   width: 200px;
   height: 200px;
+
 }
 
 .marketplace ul{
@@ -44,24 +45,24 @@
 
 
 
-
-
-
-
 .feature{
-    background-color: white;
-    background-size: 10%;
-    background-position: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 80px;
 }
-    
-section{
-    display: flex;
-    margin: 50px;
+
+.half-width{
+    width:40%;
+    margin-left: 5px;
+    padding-left: 2%;
 }
+
+
+
 
 .feature img{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
 }
 
 
@@ -75,3 +76,10 @@ section{
     padding: 5px 30px;
 
 }
+
+@media only screen and (max-width: 688px) {
+    .feature{
+        background-color: white;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
